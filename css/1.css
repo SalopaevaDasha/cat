@@ -1,0 +1,115 @@
+body{
+    background: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    background: url("../img1/2816936533_preview_Sphynx-Cat-compressed.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    height: auto;
+    width: 20%;
+    aspect-ratio: 2/1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: calc(0.5em + 1vw);
+    color: #DCDCDC;
+    flex-grow: 1;
+}
+.nav-item{
+    box-sizing: border-box;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'poboto';
+    margin-left: 50px;
+}
+.nav-item:hover{
+    text-shadow: 5px 5px 10px #FF3300, 1px 1px 1px #00CC00;
+}
+.bg-line{
+    background: url("../img1/Безымянный.jpg");
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3/1;
+    margin: 25px 0;
+}
+.head{
+    font-family: 'pusia';
+    font-size: calc(1.5rem + 5vw);
+    letter-spacing: 2rem;
+    text-align: right;
+    color: #DCDCDC;
+    text-shadow: 2px 2px 1px #000;
+}
+.line{
+    display: flex;
+    margin: 25px auto;
+    width:1 1 50%;
+}
+.img1{
+    object-fit: scale-down;
+    flex: 1 1 50%;
+}
+.text1{
+    color: white;
+    font-size: calc(00.5em + 1vw);
+    margin: 0px 10px 10px 20px;
+    flex: 1 1 50%;
+    font-family: 'poboto';
+}
+.img2{
+    object-fit: scale-down;
+    flex: 1 1 50%;
+}
+.img2 img, .img1 img{
+    width: 100%;
+    height: auto;
+}
+.text2{
+    color: white;
+    font-size: calc(00.5em + 1vw);
+    margin: 0px 10px 10px 20px;
+    flex: 1 1 50%;
+    font-family: 'poboto';
+}
+footer{
+    color: #FFF0F5;
+    display: flex;
+    width: 100%;
+    background-color: #333333;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    font-family: 'poboto';
+}
+.footer-nav-item{
+    font-size: calc(0.2em + 1vw);
+}
+.icons{
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    align-items: center;
+}
+@font-face{
+    font-family: pusia;
+    src: url(../font/Pusia\ Bold.otf) ;
+}
+@font-face{
+    font-family: poboto;
+    src: url(../font/RobotoCondensed-Bold.ttf);
+}
